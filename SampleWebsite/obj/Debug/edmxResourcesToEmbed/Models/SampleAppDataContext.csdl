@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_JoshuaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="DB_JoshuaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="userinfoes" EntityType="DB_JoshuaModel.userinfo" />
+  </EntityContainer>
+  <EntityType Name="userinfo">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="emailid" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="phoneno" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="username" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="password" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="status" Type="Int16" />
+  </EntityType>
+</Schema>

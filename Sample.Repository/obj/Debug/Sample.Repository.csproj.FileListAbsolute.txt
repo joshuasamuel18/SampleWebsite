@@ -1,0 +1,7 @@
+E:\SampleWebsite\Sample.Repository\bin\Debug\Sample.Repository.dll
+E:\SampleWebsite\Sample.Repository\bin\Debug\Sample.Repository.pdb
+E:\SampleWebsite\Sample.Repository\obj\Debug\ResolveAssemblyReference.cache
+E:\SampleWebsite\Sample.Repository\obj\Debug\Sample.Repository.dll
+E:\SampleWebsite\Sample.Repository\obj\Debug\Sample.Repository.pdb
+E:\SampleWebsite\Sample.Repository\bin\Debug\Sample.Data.dll
+E:\SampleWebsite\Sample.Repository\bin\Debug\Sample.Data.pdb

@@ -1,0 +1,6 @@
+E:\SampleWebsite\Sample.Data\bin\Debug\Sample.Data.dll.config
+E:\SampleWebsite\Sample.Data\bin\Debug\Sample.Data.dll
+E:\SampleWebsite\Sample.Data\bin\Debug\Sample.Data.pdb
+E:\SampleWebsite\Sample.Data\obj\Debug\ResolveAssemblyReference.cache
+E:\SampleWebsite\Sample.Data\obj\Debug\Sample.Data.dll
+E:\SampleWebsite\Sample.Data\obj\Debug\Sample.Data.pdb

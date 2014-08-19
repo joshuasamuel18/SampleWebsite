@@ -1,0 +1,17 @@
+﻿@model IList<Sample.Repository.UserInfo>
+@using Sample.Repository;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<ul>
+
+@foreach (UserInfo user in Model)
+{
+    <li>Name: @user.Name </li>
+}
+
+
+</ul>
