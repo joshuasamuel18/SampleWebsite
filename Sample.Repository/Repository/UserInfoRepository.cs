@@ -19,9 +19,12 @@ namespace Sample.Repository
            userinfo user = new userinfo();
            user.name = _user.Name;
            user.emailid = _user.EmailId;
+           user.phoneno = _user.PhoneNo;
+           user.username = _user.UserName;
+           user.password = _user.Password;
 
            dbcontext.Add(user);
-
+           dbcontext.SaveChanges();
            return true;
        }
 
