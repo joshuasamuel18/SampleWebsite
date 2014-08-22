@@ -13,19 +13,30 @@ namespace SampleWebsite.Controllers
 
         //
         // GET: /UserInfo/
-        public ActionResult Register()
-        {
-            return View();
-        }
-        [HttpPost]
+        //public ActionResult Register()
+        //{
+        //    return View();
+        //}
+       
         public ActionResult Register(UserInfo user)
         {
-
-            ViewBag.Msg = "Registration successfully completed";
+            if (ModelState.IsValid)
+            {
+                ViewBag.Msg = "Registration successfully completed";
+            }
             return View();
         }
 
-
+        public ActionResult Registeration(UserInfo user)
+        {
+            if (ModelState.IsValid)
+            {
+                repository = new UserInfoRepository();
+                repository.Save(user);
+                ViewBag.Msg = "Registration successfully completed";
+            }
+            return View();
+        }
         public ActionResult Index()
         {
             repository = new UserInfoRepository();

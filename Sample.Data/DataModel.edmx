@@ -75,7 +75,7 @@
     </Options>
     <!-- Diagram content (shape and connector positions) -->
     <Diagrams>
-      <Diagram Name="DataModel">
+      <Diagram Name="DataModel" ZoomLevel="49">
         <EntityTypeShape EntityType="DB_JoshuaModel.userinfo" Width="1.5" PointX="0.75" PointY="0.75" Height="2.3648893229166665" IsExpanded="true" />
       </Diagram>
     </Diagrams>

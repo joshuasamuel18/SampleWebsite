@@ -1,0 +1,24 @@
+﻿@model Sample.Repository.UserInfo
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+ <fieldset>
+        <legend>Registration Form</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.Name)
+               <input id="txtname" value="" />
+                @Html.ValidationMessageFor(m => m.Name)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.EmailId)
+              @*  @Html.TextBoxFor(m => m.EmailId)*@
+              <input id="txtEmailId" value="" />
+            </li>
+           </li>
+        </ol>
+        <input id="btnSave" type="submit" value="Register" /><h3>@ViewBag.Msg.</h3>
+    </fieldset>
+

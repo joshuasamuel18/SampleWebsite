@@ -19,7 +19,7 @@ namespace Sample.Repository
                 Name = _user.name,
                 Password = _user.password,
                 PhoneNo = _user.phoneno,
-                Status = _user.status
+                Status = Convert.ToInt32(_user.status)
             };
         }
 

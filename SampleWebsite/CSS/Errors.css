@@ -1,0 +1,9 @@
+﻿body {
+}
+.focus {
+    border: 2px solid #AA88FF;
+    background-color: #FFEEAA;
+}
+.error
+{
+     border-color: red;}
