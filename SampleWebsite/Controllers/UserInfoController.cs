@@ -13,15 +13,10 @@ namespace SampleWebsite.Controllers
 
         //
         // GET: /UserInfo/
+
+
         public ActionResult Register()
         {
-            return View();
-        }
-        [HttpPost]
-        public ActionResult Register(UserInfo user)
-        {
-
-            ViewBag.Msg = "Registration successfully completed";
             return View();
         }
 
