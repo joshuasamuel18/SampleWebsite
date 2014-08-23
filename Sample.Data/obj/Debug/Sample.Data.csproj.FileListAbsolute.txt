@@ -4,3 +4,9 @@ E:\SampleWebsite\Sample.Data\bin\Debug\Sample.Data.pdb
 E:\SampleWebsite\Sample.Data\obj\Debug\ResolveAssemblyReference.cache
 E:\SampleWebsite\Sample.Data\obj\Debug\Sample.Data.dll
 E:\SampleWebsite\Sample.Data\obj\Debug\Sample.Data.pdb
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Data\bin\Debug\Sample.Data.dll.config
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Data\bin\Debug\Sample.Data.dll
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Data\bin\Debug\Sample.Data.pdb
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Data\obj\Debug\Sample.Data.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Data\obj\Debug\Sample.Data.dll
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Data\obj\Debug\Sample.Data.pdb

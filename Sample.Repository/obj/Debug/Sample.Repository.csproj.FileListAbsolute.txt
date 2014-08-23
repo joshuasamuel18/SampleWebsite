@@ -5,3 +5,10 @@ E:\SampleWebsite\Sample.Repository\obj\Debug\Sample.Repository.dll
 E:\SampleWebsite\Sample.Repository\obj\Debug\Sample.Repository.pdb
 E:\SampleWebsite\Sample.Repository\bin\Debug\Sample.Data.dll
 E:\SampleWebsite\Sample.Repository\bin\Debug\Sample.Data.pdb
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Repository\bin\Debug\Sample.Repository.dll
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Repository\bin\Debug\Sample.Repository.pdb
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Repository\bin\Debug\Sample.Data.dll
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Repository\bin\Debug\Sample.Data.pdb
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Repository\obj\Debug\Sample.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Repository\obj\Debug\Sample.Repository.dll
+C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Repository\obj\Debug\Sample.Repository.pdb
