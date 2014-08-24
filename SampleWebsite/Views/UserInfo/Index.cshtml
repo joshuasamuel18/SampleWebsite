@@ -19,3 +19,25 @@
 
 </table>
 
+@{
+    var grid = new WebGrid(source: Model, canPage: true, canSort: false);
+}
+@grid.GetHtml(
+    htmlAttributes: new { id = "gridId" },
+    fillEmptyRows: false,
+    mode: WebGridPagerModes.All,
+    firstText: "<< First",
+    previousText: "< Prev",
+    nextText: "Next >",
+    lastText: "Last >>",
+ 
+columns: new[] {
+        grid.Column("Name", "Name"),
+        grid.Column("EmailID", "EmailID"),
+        grid.Column("PhoneNo", "Name"),
+        grid.Column("UserName", "Name"),
+        grid.Column(columnName: "Edit", format: (item) => Html.ActionLink("Edit", "Edit", new { id = item.userid })),
+                grid.Column(columnName: "Delete", format: (item) => Html.ActionLink("Delete", "Delete", new { id = item.userid }, new { onclick = "return confirm('Are you sure you want to delete this record?');" }))
+                }
+)
+
