@@ -1,0 +1,19 @@
+﻿@model Sample.Repository.UserInfo
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";  
+}
+
+<h2>Register</h2>
+
+<div>Name</div><div><input id="txtname" type="text" /></div>
+<div>EmailId</div><div><input id="txtEmailId" type="text" /></div>
+<div>PhoneNo</div><div><input id="txtPhoneNo" type="text" /></div>
+<div>UserName</div><div><input id="txtUserName" type="text" /></div>
+<div>Password</div><div><input id="txtPassword" type="text" /></div>
+<div><input id="btnregister" type="button" value="Register" /></div>
+
+@Html.ActionLink("List Of Users", "Index");
+<script type="text/javascript">
+  
+</script>

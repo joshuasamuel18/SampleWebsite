@@ -6,12 +6,16 @@
 
 <h2>Index</h2>
 
-<ul>
 
+<table>
+<tr><td>Name</td><td>EmailID</td><td>PhoneNo</td><td>UserName</td></tr>
 @foreach (UserInfo user in Model)
 {
-    <li>Name: @user.Name </li>
+    <tr><td>@user.Name</td>
+    <td>@user.EmailId</td>
+    <td>@user.PhoneNo</td>
+    <td>@user.UserName</td></tr>
 }
 
+</table>
 
-</ul>
