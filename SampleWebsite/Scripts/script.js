@@ -60,7 +60,27 @@
             return !$.trim(this.value);
         }).addClass('errortxt');
     });
-//    $('[id$=txtEmailId]').blur(function () {
-//        validateEmail(this.value);
-//    });
+    $('[id$=txtPhoneNo]').blur(function () {
+            validatePhone(this,'0');
+        });
+
+    function validatePhone(phoneField, format) {
+        var num = phoneField.value.replace(/[^\d]/g, '');
+        if (num.length != 10) {
+            $('[id$=txtPhoneNo]').addClass('errortxt');
+        } else {
+            //Email was valid.  If format type is set, format the Phone to the desired style.
+            switch (format) {
+                case '0': //Format (xxx)-xxx-xxxx
+                    phoneField.value = "(" + num.substring(0, 3) + ")-" + num.substring(3, 6) + "-" + num.substring(6);
+                    break;
+                case '1': //Format xxx-xxx-xxxx
+                    phoneField.value = num.substring(0, 3) + "-" + num.substring(3, 6) + "-" + num.substring(6);
+                    break;
+                default: //Format xxxxxxxxxx
+                    phoneField.value = num;
+                    break;
+            }
+        }
+    }
 });

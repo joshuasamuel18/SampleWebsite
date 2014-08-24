@@ -20,7 +20,12 @@ namespace SampleWebsite.Controllers
             return View();
         }
 
-
+        public ActionResult Registeration(UserInfo _user)
+        {
+            repository = new UserInfoRepository();
+            repository.Save(_user);
+            return View();
+        }
         public ActionResult Index()
         {
             repository = new UserInfoRepository();

@@ -9,24 +9,24 @@ namespace Sample.Repository
 {
    public class DomainUserInfo
     {
-        public static UserInfo ToDomainUserInfo(userinfo _user)
+        public static UserInfo ToDomainUserInfo(UserInfo _user)
         {
             return new UserInfo
             {
-                UserId = _user.user_id,
-                UserName = _user.username,
-                EmailId = _user.emailid,
-                Name = _user.name,
-                Password = _user.password,
-                PhoneNo = _user.phoneno,
-                Status = _user.status
+                UserId = _user.UserId,
+                UserName = _user.UserName,
+                EmailId = _user.EmailId,
+                Name = _user.Name,
+                Password = _user.Password,
+                PhoneNo = _user.PhoneNo,
+                Status = _user.Status
             };
         }
 
-        public static List<UserInfo> ToDomainUserInfo(List<userinfo> _userlist)
+        public static List<UserInfo> ToDomainUserInfo(List<UserInfo> _userlist)
         {
             List<UserInfo> MyList = new List<UserInfo>();
-            foreach (userinfo _user in _userlist)
+            foreach (UserInfo _user in _userlist)
             {
                 MyList.Add(DomainUserInfo.ToDomainUserInfo(_user));
             }

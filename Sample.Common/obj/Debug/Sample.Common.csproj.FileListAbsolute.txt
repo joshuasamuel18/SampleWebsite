@@ -2,3 +2,7 @@ C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Common\bin\D
 C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Common\bin\Debug\Sample.Common.pdb
 C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Common\obj\Debug\Sample.Common.dll
 C:\Users\Administrator.aes143\Documents\GitHub\SampleWebsite\Sample.Common\obj\Debug\Sample.Common.pdb
+C:\Users\admin\Documents\GitHub\SampleWebsite\Sample.Common\bin\Debug\Sample.Common.dll
+C:\Users\admin\Documents\GitHub\SampleWebsite\Sample.Common\bin\Debug\Sample.Common.pdb
+C:\Users\admin\Documents\GitHub\SampleWebsite\Sample.Common\obj\Debug\Sample.Common.dll
+C:\Users\admin\Documents\GitHub\SampleWebsite\Sample.Common\obj\Debug\Sample.Common.pdb
