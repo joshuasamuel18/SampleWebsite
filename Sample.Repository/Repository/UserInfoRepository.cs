@@ -5,12 +5,13 @@ using System.Text;
 using Sample.Data;
 using Sample.Data.IRepository;
 using Sample.Common.Helpers;
+using Sample.Data;
 
 namespace Sample.Repository
 {
    public class UserInfoRepository:IUserInfoRepository
     {
-
+       
        DataRepository<UserInfo> dbcontext = null;
        
        public bool Save(UserInfo _user)
@@ -44,6 +45,21 @@ namespace Sample.Repository
             var _user = dbcontext.First(x => x.UserId == user.UserId);
 
             return DomainUserInfo.ToDomainUserInfo(_user);   
+        }
+
+        public bool UpdateStatus(UserInfo user)
+        {
+            dbcontext = new DataRepository<UserInfo>();
+
+            var _user = dbcontext.First(x => x.UserId == user.UserId);
+
+            if (_user != null)
+            {
+                _user.Status = 1;
+            }
+            dbcontext.SaveChanges();
+            dbcontext.Dispose();
+            return true;
         }
     }
 }

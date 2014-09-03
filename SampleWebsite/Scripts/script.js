@@ -24,6 +24,29 @@
         });
     });
 
+    $('#update').click(function () {
+
+        var UserInfo =
+            {
+                UserId: 13,
+                Status: 1
+            };
+
+        $.ajax({
+            cache: false,
+            type: 'POST',
+            url: "/UserInfo/UpdateUser",
+            datatype: 'json',
+            data: UserInfo,
+            success: function (data)
+            { alert('Success'); return false; },
+            error: function (err) {
+                alert(err.responseText);
+            }
+        });
+
+    });
+
     function checkvalidation() {
         var inp = $(":input");
         $(":input").each(function () {
@@ -61,8 +84,8 @@
         }).addClass('errortxt');
     });
     $('[id$=txtPhoneNo]').blur(function () {
-            validatePhone(this,'0');
-        });
+        validatePhone(this, '0');
+    });
 
     function validatePhone(phoneField, format) {
         var num = phoneField.value.replace(/[^\d]/g, '');

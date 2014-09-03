@@ -20,7 +20,7 @@
 </table>
 
 @{
-    var grid = new WebGrid(source: Model, canPage: true, canSort: false);
+    var grid = new WebGrid(source: Model, canPage: true, canSort: true);
 }
 @grid.GetHtml(
     htmlAttributes: new { id = "gridId" },
@@ -38,6 +38,6 @@ columns: new[] {
         grid.Column("UserName", "Name"),
         grid.Column(columnName: "Edit", format: (item) => Html.ActionLink("Edit", "Edit", new { id = item.userid })),
                 grid.Column(columnName: "Delete", format: (item) => Html.ActionLink("Delete", "Delete", new { id = item.userid }, new { onclick = "return confirm('Are you sure you want to delete this record?');" }))
-                }
+}
 )
 

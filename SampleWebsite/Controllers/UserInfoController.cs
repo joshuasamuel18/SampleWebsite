@@ -26,6 +26,15 @@ namespace SampleWebsite.Controllers
             repository.Save(_user);
             return View();
         }
+
+        [HttpPost]
+        public bool UpdateUser(UserInfo user)
+        {
+            repository = new UserInfoRepository();
+            repository.UpdateStatus(user);
+            return true;
+        }
+
         public ActionResult Index()
         {
             repository = new UserInfoRepository();
